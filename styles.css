@@ -39,6 +39,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .site-header { position: absolute; z-index: 20; inset: 0 0 auto; border-bottom: 1px solid rgba(255,255,255,.08); }
 .nav-shell { min-height: 78px; display: flex; align-items: center; justify-content: space-between; }
 .wordmark { display: inline-flex; align-items: center; gap: .75rem; color: var(--text); font-weight: 720; font-size: .82rem; letter-spacing: .16em; text-decoration: none; }
+.wordmark-logo { width: 34px; height: 34px; aspect-ratio: 1; border-radius: 50%; object-fit: contain; flex-shrink: 0; display: block; }
 .wordmark-mark { display: grid; width: 34px; aspect-ratio: 1; place-items: center; border: 1px solid var(--line-bright); border-radius: 50%; font-size: .65rem; letter-spacing: -.03em; background: rgba(255,255,255,.035); }
 .primary-nav { display: flex; gap: 2rem; align-items: center; }
 .primary-nav a { min-height: 44px; display: inline-flex; align-items: center; color: #c8cbd4; font-size: .84rem; text-decoration: none; transition: color .2s ease; }
@@ -73,6 +74,7 @@ em { color: #aab6ff; font-family: Georgia, serif; font-weight: 400; }
 .screen-label { color: #7c8291; font-size: .55rem; letter-spacing: .18em; }
 .screen-core { flex: 1; display: grid; place-items: center; }
 .screen-core span { width: 92px; aspect-ratio: 1; display: grid; place-items: center; border-radius: 25px; background: linear-gradient(145deg, #7792ff, #7c4fff); box-shadow: 0 15px 45px rgba(104,76,255,.4); font-size: 2.2rem; font-weight: 730; }
+.screen-logo { width: 96px; height: 96px; aspect-ratio: 1; object-fit: contain; border-radius: 50%; box-shadow: 0 12px 35px rgba(0, 162, 255, 0.25), 0 0 20px rgba(110, 140, 255, 0.2); display: block; }
 .screen-lines { display: grid; gap: .55rem; }
 .screen-lines i { height: 5px; border-radius: 5px; background: rgba(255,255,255,.12); }
 .screen-lines i:nth-child(2) { width: 78%; } .screen-lines i:nth-child(3) { width: 48%; }

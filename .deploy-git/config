@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	worktree = C:/Users/Dell/OneDrive/Documents/ChatGPT/website
+	ignorecase = true
+[user]
+	name = Ranjeet Bijarnia
+	email = tegtiger2@gmail.com
+[remote "origin"]
+	url = https://github.com/RBMOBILEAPPS/rb-apps-website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
