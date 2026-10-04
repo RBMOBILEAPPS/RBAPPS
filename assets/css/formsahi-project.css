@@ -1,20 +1,8 @@
 /* FormSahi uses the portfolio's existing app card, button and design tokens. */
-.formsahi-card { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-.formsahi-visual { padding: clamp(1.5rem, 4vw, 3rem); }
-.formsahi-preview { position: relative; z-index: 1; display: block; width: min(100%, 320px); height: auto; border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 18px 45px rgba(0,0,0,.3); transition: transform .3s ease; }
-.formsahi-card:hover .formsahi-preview { transform: scale(1.015); }
-.formsahi-card .app-content { min-width: 0; }
+.formsahi-card:hover .formsahi-card .app-content { min-width: 0; }
 .formsahi-category { margin: 0 0 1.2rem; color: var(--violet); font-size: .85rem; }
 .formsahi-tags { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 1.5rem 0 0; list-style: none; }
 .formsahi-tags li { padding: .4rem .7rem; border: 1px solid var(--line); border-radius: 999px; color: #c8c0e8; background: rgba(155,121,255,.04); font-size: .65rem; }
 .formsahi-card .app-link { min-height: 50px; }
 .formsahi-card .app-link span { transition: transform .3s ease; }
 .formsahi-card .app-link:hover span { transform: translate(3px,-3px); }
-@media (max-width: 820px) { .formsahi-card { grid-template-columns: minmax(0, 1fr); } }
-@media (prefers-reduced-motion: reduce) { .formsahi-card:hover .formsahi-preview, .formsahi-card .app-link:hover span { transform: none; } }
-
-.formsahi-title-row { display: flex; align-items: flex-start; gap: 1rem; width: 100%; }
-.formsahi-title-row h3 { min-width: 0; flex: 1; }
-.formsahi-icon { flex: 0 0 54px; display: block; width: 54px; height: 54px; margin-top: .7rem; border: 1px solid var(--line); border-radius: 14px; box-shadow: 0 8px 24px rgba(155,121,255,.12); }
-.formsahi-preview { box-shadow: 0 18px 45px rgba(0,0,0,.3), 0 0 32px rgba(155,121,255,.08); }
-@media (max-width: 520px) { .formsahi-title-row { gap: .65rem; } .formsahi-icon { flex-basis: 42px; width: 42px; height: 42px; border-radius: 11px; } .formsahi-title-row h3 { font-size: clamp(1.6rem, 6.5vw, 2.5rem); } }
